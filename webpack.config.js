@@ -14,5 +14,7 @@ module.exports = {
                 from: '*.html'
             }]
         })
-    ]
+    ],
+    mode: 'production',
+
 };
