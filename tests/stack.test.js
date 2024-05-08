@@ -22,7 +22,7 @@ test('should push and pop elements correctly from the stack', () => {
   stack.push(1);
   stack.push(2);
   expect(stack.pop()).toBe(2);
-  expect(stack.pop()).toBe(4);
+  expect(stack.pop()).toBe(1);
 });
 
 test('should return the top element of the stack without removing it', () => {

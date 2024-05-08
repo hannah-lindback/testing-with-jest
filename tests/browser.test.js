@@ -49,7 +49,7 @@ const assert = require('assert');
     await driver.switchTo().alert().accept();
 
     let topOfStack = await driver.findElement(By.id('top_of_stack')).getText();
-    assert.strictEqual(topOfStack, '200');
+    assert.strictEqual(topOfStack, '2');
   } finally {
     await driver.quit();
   }
